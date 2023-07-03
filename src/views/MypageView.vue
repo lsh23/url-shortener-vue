@@ -1,11 +1,10 @@
 <template>
-	<router-view></router-view>
+	<div>mypage</div>
 </template>
 
 <script>
 export default {
-	name: 'App',
-	components: {},
+	name: 'MypageView',
 };
 </script>
 
