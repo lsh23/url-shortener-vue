@@ -29,6 +29,7 @@ module.exports = {
 		],
 		// prettier의 설정이 eslint와 충돌할 수 있으므로 eslint에 prettier 규칙을 넣어준다.
 		//또한 코드 레벨로 규칙을 관리하면 개발툴이 다르더라도 동일한 규칙으로 통일 할 수 있다.
+		'vue/multi-word-component-names': 0,
 	},
 	overrides: [
 		{
