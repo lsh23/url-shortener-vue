@@ -1,6 +1,7 @@
 <template>
 	<div class="logo">
 		<img src="@/assets/logo.png" alt="" :style="logoSize" />
+		<slot></slot>
 	</div>
 </template>
 
@@ -32,5 +33,8 @@ export default {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+.logo {
+	text-align: center;
 }
 </style>
